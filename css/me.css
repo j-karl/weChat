@@ -211,6 +211,13 @@
     bottom: 0;
     margin: auto; }
 
+.nav .nav-inner .nav1 .img {
+  background-image: url("../img/find_23.png");
+}
+
+.nav .nav-inner .nav1 .word {
+  color: #929292;
+}
 .nav .nav-inner .nav3 .img {
   background-image: url("../img/images_24.png"); }
 
