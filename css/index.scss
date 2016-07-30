@@ -13,10 +13,11 @@
 
 @include adapter(750px);
 
-
+a{
+	text-decoration: none;
+}
 body{
 	margin: 0;
-	// height: 
 }
 .header{
 	height: 0.8rem;
@@ -178,16 +179,20 @@ body{
 			line-height: .28rem;
 			font-size: .2rem;
 			font-family: '苹方';
+			a{
+				color: #9D9D9D;
+			}
 		}
 	}
 	.nav1{
-		// background-color: #731515;
 		.img{
 			background-image: url('../img/images_19.png');
 			background-size: .52rem .46rem;
 		}
 		.word{
-			color: #16AE14;
+			a{
+				color: #16AE14;
+			}
 		}
 	}
 	.nav2{
@@ -710,7 +715,6 @@ body{
 	position: fixed;
 	right: 0;
 	top: 3rem;
-	// bottom: 0;
 	width: .3rem;
 	height: auto;
 	z-index: 999;
